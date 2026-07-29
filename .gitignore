@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+*.env
+!.env.example
+__pycache__/
+*.pyc
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+migrations/__pycache__/
+
+# Django
+*.log
+staticfiles/
+db.sqlite3
+
+# Node
+node_modules/
+build/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
